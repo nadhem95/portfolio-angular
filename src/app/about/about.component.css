@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('bg-img.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  transform: rotate(360deg);
+}
+
+.about {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #00bcd4;
+}
+
+h4 {
+  color: #00bcd4;
+  margin-top: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+font[color="blue"] {
+  color: #2196f3;
+}
+
+p {
+  line-height: 1.6;
+}

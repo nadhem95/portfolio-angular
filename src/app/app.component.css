@@ -1,0 +1,66 @@
+/* Inside your app.component.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('bg-img.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.nav {
+  background: linear-gradient(to right, #333, #555);
+  color: white;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.search-container {
+  margin-right: 15px;
+  float: right;
+}
+
+input[type="search"] {
+  padding: 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 8px;
+}
+
+button[type="search"] {
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="search"]:hover {
+  background: #45a049;
+}

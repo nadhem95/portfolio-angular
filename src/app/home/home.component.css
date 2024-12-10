@@ -1,0 +1,77 @@
+.transparent-background {
+  position: relative;
+  height: 100vh;
+  background-image: url('bg-img.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  background: url('nadhem.jpg') center center no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 120px;
+  height: 80px;
+}
+.logo {
+  background: url('hazem.jpg') center center no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 120px;
+  height: 80px;
+}
+
+
+.main {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.right-image,
+.left-image {
+  max-width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.text-container {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.title {
+  color: #fff;
+  font-size: 2.4em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+p {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}

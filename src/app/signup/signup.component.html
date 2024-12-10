@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+</head>
+<body>
+    <h3 class="sign"> Sign Up </h3>
+    <form  (ngSubmit)="submitForm(signUpForm)" #signUpForm="ngForm">
+        <div *ngIf="WelcomeMessage" class="Welcome-message">
+            <p>Je suis ravie de votre contact. Je vous appellerai dès que possible.</p>
+        </div>
+  
+        <fieldset>
+            <legend> Personnel </legend>
+            <table>
+                <tr>
+                    <td><label for="nom">Nom: </label></td>
+                    <td><input type="text" id="nom" name="nom" placeholder="Votre Nom"></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Prenom: </label></td>
+                    <td><input type="text" id="prenom" name="prenom" placeholder="Votre Prenom"></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">Adresse mail: </label></td>
+                    <td><input type="text" id="mail" name="mail" placeholder="Votre mail"></td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Numéro de téléphone: </label></td>
+                    <td><input type="text" id="tel" name="tel" placeholder="Votre Numéro de téléphone"></td>
+                </tr>
+                <tr>
+                    <td><label for="msg">Message: </label></td>
+                    <td><input type="text" id="msg" name="msg"  placeholder="Saisie Votre Message Ici"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit" [disabled]="signUpForm.invalid" class="btn" name="btn" value="déposer">déposer</button></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

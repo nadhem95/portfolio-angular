@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- Add any other head elements here -->
+</head>
+<body>
+
+<form>
+    <fieldset>
+        <div class="container">
+            <div class="form-group">
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" placeholder="Entrer Votre Nom">
+            </div>
+            <div class="form-group">
+                <label for="mail">Adresse mail:</label>
+                <input type="text" name="mail" placeholder="Entrer un email valide">
+            </div>
+            <div class="form-group">
+                <label for="msg">Message:</label>
+                <textarea class="msg" placeholder="Saisie Votre Message Ici"></textarea>
+            </div>
+            <button type="submit" (click)="envoyer()" class="btn" name="btn">Soumettre</button>
+        </div>
+
+        <div class="header">
+            <h1 class="title1">{{title1}}</h1>
+            <p class="paragraphe1">{{paragraphe1}}</p>
+            <div class="main">
+                <div class="footer">
+                    <table>
+                      <tr>
+                        <td><img src="facebook.png" alt="Facebook"><a href="https://www.facebook.com/people/Ochi-Nadhem/100082733033120/"> Nadhem Facebook</a></td>
+                        <td><img src="email.png" alt="Email"><a href="https://mail.google.com/"> nadhemochi15@gmail.com </a></td>
+                        <td><img src="instagram.png" alt="Instagram"><a href="https://www.instagram.com/nadhem_ochi/">NADHEM INSTAGRAM</a></td>
+                        <td><img src="linkedin.png" alt="LinkedIn"><a href="https://www.linkedin.com/in/ochi-nadhem-ab2a85267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Nadhem LinkedIn</a></td>
+                        <td><img src="twitter.png" alt="Twitter"><a href="https://x.com/the_chief13?t=-yF3bAxdTIgKu2kFNj1N9A&s=07"> Nadhem Twitter</a></td>
+                        <td><b>APPELEZ NOUS : </b></td>
+                        <td>50689348</td>
+                    </tr>
+                    </table>  
+              </div>
+            </div>
+        </div>
+    </fieldset>
+</form>
+
+</body>
+</html>

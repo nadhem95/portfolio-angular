@@ -1,0 +1,41 @@
+/* Inside your nadhem.hazem.component.css */
+
+/* Style for the container */
+.contact-info-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-image: url('bg-img.jpg'); /* Adjust the path as needed */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333; /* Set the default text color */
+}
+
+/* Style for the header */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the contact information */
+h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Style for the delete button */
+button {
+  background-color: #ff4646;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #d63030;
+}
